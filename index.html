@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Job Board</h1>
+    <p>Find your dream job</p>
+</header>
+
+<!-- Search -->
+<section>
+    <input type="text" id="search" placeholder="Search jobs...">
+</section>
+
+<!-- Job Listings -->
+<section id="jobs">
+    <div class="job">
+        <h3>Frontend Developer</h3>
+        <p>Company: ABC</p>
+        <p>Location: Remote</p>
+        <button onclick="applyJob('Frontend Developer')">Apply</button>
+    </div>
+
+    <div class="job">
+        <h3>Backend Developer</h3>
+        <p>Company: XYZ</p>
+        <p>Location: Hyderabad</p>
+        <button onclick="applyJob('Backend Developer')">Apply</button>
+    </div>
+</section>
+
+<!-- Apply Form -->
+<section id="apply">
+    <h2>Apply for Job</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required><br>
+        <input type="email" placeholder="Email" required><br>
+        <input type="file"><br>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Nikitha Maddala</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
